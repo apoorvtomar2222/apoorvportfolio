@@ -78,7 +78,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'whatsapp',
-      url: 'https://api.whatsapp.com/send?phone=+919899948270&text=Hi+Apoorv+How+are+you&source&data&app_absent&lang=en',
+      url: 'https://api.whatsapp.com/send?phone=+919899948270&text=Hi+Apoorv!&source&data&app_absent&lang=en',
     },
     {
       id: nanoid(),
