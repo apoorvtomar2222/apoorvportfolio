@@ -58,6 +58,24 @@ export const projectsData = [
     url: 'https://json-differentiator.web.app/',
     repo: '', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'medium.png',
+    title: 'Medium',
+    info: 'My blog post, where I try to share my thoughts.',
+    info2: '',
+    url: 'https://mindroast.medium.com/',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'assetdlt.png',
+    title: 'DL Asset Track',
+    info: 'Built DL Assert track Solution with DLT Labs, which is been used by Walmart Canada.',
+    info2: '',
+    url: 'https://www.dltlabs.com/platforms/asset-track',
+    repo: '', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
@@ -70,11 +88,11 @@ export const contactData = {
 // FOOTER DATA
 export const footerData = {
   networks: [
-    // {
-    //   id: nanoid(),
-    //   name: 'twitter',
-    //   url: '',
-    // },
+    {
+      id: nanoid(),
+      name: 'twitter',
+      url: 'https://twitter.com/Apoorv78174964',
+    },
     {
       id: nanoid(),
       name: 'whatsapp',
