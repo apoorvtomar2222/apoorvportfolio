@@ -14,21 +14,21 @@ const Contact = () => {
         <Title title="Contact" />
         <Fade bottom duration={1000} delay={800} distance="30px">
           <div className="contact-wrapper">
-            <p>Contact Number : 9899948270</p>
+            {/* <p>Contact Number : 9899948270</p> */}
             <p>Email : apoorv_tomar2222@yahoo.com</p>
 
             <p className="contact-wrapper__text">
               {cta || 'Would you like to work with me? Awesome!'}
             </p>
 
-            <a
+            {/* <a
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn cta-btn--resume"
               href={'https://api.whatsapp.com/send?phone=+919899948270&text=Hi+Apoorv!&source&data&app_absent&lang=en'}
             >
               {btn || "Let's Talk"}
-            </a>
+            </a> */}
           </div>
         </Fade>
       </Container>

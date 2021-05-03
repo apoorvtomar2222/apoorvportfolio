@@ -275,6 +275,7 @@ I was motivated to create this project because I wanted to contribute on somethi
 - npm run build
 - firebase login if not logged in
 - firebase deploy
-- git push origin master.
+- git commit and git push origin master
+
 
 

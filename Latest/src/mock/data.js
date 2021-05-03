@@ -93,11 +93,11 @@ export const footerData = {
       name: 'twitter',
       url: 'https://twitter.com/Apoorv78174964',
     },
-    {
-      id: nanoid(),
-      name: 'whatsapp',
-      url: 'https://api.whatsapp.com/send?phone=+919899948270&text=Hi+Apoorv!&source&data&app_absent&lang=en',
-    },
+    // {
+    //   id: nanoid(),
+    //   name: 'whatsapp',
+    //   url: 'https://api.whatsapp.com/send?phone=+919899948270&text=Hi+Apoorv!&source&data&app_absent&lang=en',
+    // },
     {
       id: nanoid(),
       name: 'linkedin',
