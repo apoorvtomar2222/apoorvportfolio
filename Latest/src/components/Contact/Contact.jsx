@@ -21,14 +21,14 @@ const Contact = () => {
               {cta || 'Would you like to work with me? Awesome!'}
             </p>
 
-            {/* <a
+            <a
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn cta-btn--resume"
-              href={'https://api.whatsapp.com/send?phone=+919899948270&text=Hi+Apoorv!&source&data&app_absent&lang=en'}
+              href={'https://t.me/ApoorvTomar'}
             >
               {btn || "Let's Talk"}
-            </a> */}
+            </a>
           </div>
         </Fade>
       </Container>
