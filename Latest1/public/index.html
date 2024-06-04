@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apoorv Tomar</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="content">
+                <h1>Hi, my name is <span>Apoorv Tomar</span><br>I'm the Software Developer.</h1>
+                <button>Know more</button>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <div class="text">
+                    <h2>ABOUT ME</h2>
+                    <p>Created multiple web apps starting with requirements gathering, designing, developing,
+                        refactoring, and code implementation. Implemented the redesigned user dashboard with better UX
+                        and performance using JavaScript. Created multiple landing pages using popular frontend
+                        frameworks like Angular, library like ReactJS and Backend using Node.js. Facilitate team
+                        performance on current tasks.</p>
+                    <ul>
+                        <li>Angular Js: Joined as a Front End developer, worked on AngularJS framework and helped So
+                            Delhi to improve its overall web performance.</li>
+                        <li>Single Handedly added various features like Login, Write a story Editor to the website.
+                        </li>
+                        <li>PWA (Progressive Web App): Worked upon SO Delhi's PWA.</li>
+                        <li>REACT: Build a Full Fledged website using React Framework.</li>
+                        <li>NODE JS: Build Secured API's using JWT.</li>
+                        <li>ELASTIC SEARCH: Integrated Elastic Search for precise and fast search results.</li>
+                    </ul>
+                    <button id="download-pdf">Download PDF</button>
+                </div>
+                <div class="image">
+                    <img src="./proPic.png" alt="Apoorv Tomar">
+                </div>
+            </div>
+        </section>
+        <section class="projects">
+            <div class="project">
+                <img src="./assets/project2.jpg" alt="Project 1">
+                <h2>So Share</h2>
+                <p>So Share is a collaborative co-working space for those in the creative, content & digital space.</p>
+                <a href="https://www.soshare.in/" target="_blank">View Website</a>
+            </div>
+
+            <div class="project">
+                <img src="./assets/project1.jpg" alt="Project 2">
+                <h2>So City</h2>
+                <p>SO DELHI, it is top guide to New Delhi curated by local experts covering Food, Event, LifeStyle etc.
+                </p>
+                <a href="https://so.city/" target="_blank">View Website</a>
+            </div>
+
+            <div class="project">
+                <img src="./assets/project3.png" alt="Project 3">
+                <h2>JSON differentiator</h2>
+                <p>This is a project in which you can compare two JSON files.</p>
+                <a href="https://json-differentiator.web.app/" target="_blank">View Website</a>
+            </div>
+
+            <div class="project">
+                <img src="./assets/project.jpg" alt="Project 3">
+                <h2>DL Asset Track</h2>
+                <p>Built DL Assert track Solution with DLT Labs, which is been used by Walmart Canada.</p>
+                <a href="https://www.dltlabs.com/platforms/asset-track" target="_blank">View Website</a>
+            </div>
+        </section>
+
+        <br><br>
+    </main>
+    <br><br>
+
+
+    <footer>
+        <p>&copy; 2024 Apoorv Tomar. All rights reserved.</p>
+    </footer>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+<script>
+    document.getElementById('download-pdf').addEventListener('click', function (event) {
+        event.preventDefault();
+        const pdfUrl = './Apoorv_Tomar_resume-9899948270.pdf';
+        window.open(pdfUrl, '_blank');
+    });
+</script>
+
+</html>
