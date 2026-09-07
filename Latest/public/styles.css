@@ -292,11 +292,49 @@ h2 {
     border-color: rgba(212, 180, 131, 0.45);
 }
 
+.project.featured {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+}
+
+.project-cover {
+    min-height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 6px;
+    padding: 28px;
+    background:
+        linear-gradient(160deg, rgba(212, 180, 131, 0.18), transparent 50%),
+        linear-gradient(20deg, #1c1e18, #2a2418);
+}
+
+.project-cover span {
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    color: var(--gold);
+}
+
+.project-cover strong {
+    font-family: Fraunces, Georgia, serif;
+    font-size: 2rem;
+    font-weight: 550;
+}
+
 .project img {
     width: 100%;
     height: 220px;
     object-fit: cover;
     background: #222;
+}
+
+.project-meta {
+    margin-top: auto;
+    color: var(--gold-strong);
+    font-weight: 500;
+    font-size: 0.95rem;
 }
 
 .project-body {
@@ -368,7 +406,8 @@ footer {
     }
 
     .about-grid,
-    .projects {
+    .projects,
+    .project.featured {
         grid-template-columns: 1fr;
     }
 
