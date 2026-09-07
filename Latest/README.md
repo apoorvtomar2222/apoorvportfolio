@@ -1,9 +1,8 @@
-Steps to deploy on firebase
-- URL: https://apoorv-tomar.web.app/
-- firebase login
-- firebase deploy
----
+Live site: https://apoorv-tomar.web.app/
 
-Run on Local
-- To run on local, simple open index.html file on any browser.
-- Latest
+Deploy
+- firebase login
+- firebase deploy (from Latest/)
+
+Local
+- Open Latest/public/index.html in a browser.

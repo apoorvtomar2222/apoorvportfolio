@@ -4,115 +4,173 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apoorv Tomar</title>
+    <title>Apoorv Tomar — Software Developer</title>
+    <meta name="description"
+        content="Apoorv Tomar is a software developer with 9+ years of experience building enterprise web applications across Angular, React, Node.js, and cloud.">
+    <meta property="og:title" content="Apoorv Tomar — Software Developer">
+    <meta property="og:description"
+        content="Enterprise web apps, product engineering, and full-stack delivery.">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Outfit:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
 </head>
 
-
 <body>
-    <header>
-        <nav>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <header class="site-header">
+        <a class="logo" href="#hero">AT</a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+            <span class="sr-only">Menu</span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav id="site-nav">
             <ul>
                 <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
+                <li><a href="#work">Work</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><a class="nav-resume" href="./Apoorv_Tomar_resume-9899948270.pdf" target="_blank"
+                        rel="noopener">Resume</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
+    <main id="main">
         <section id="hero">
-            <div class="content">
-                <h1>Hi, my name is <span>Apoorv Tomar</span><br>I'm the Software Developer.</h1>
-                <h2>I having 7+ years experience in building enterprise level applications.</h2>
-                <a href="#about"><button about>Know more</button></a>
+            <p class="eyebrow">Delhi · Available for collaboration</p>
+            <h1>Apoorv Tomar</h1>
+            <p class="lede">
+                Software developer with <strong>9+ years</strong> shipping enterprise products —
+                from product dashboards and PWAs to secured APIs and search at scale.
+            </p>
+            <div class="hero-actions">
+                <a class="btn btn-primary" href="#work">See selected work</a>
+                <a class="btn btn-ghost" href="#contact">Get in touch</a>
             </div>
         </section>
 
         <section id="about">
-            <div class="container">
-                <div class="text">
-                    <h2>ABOUT ME</h2>
-                    <p>Created multiple web apps starting with requirements gathering, designing, developing,
-                        refactoring, and code implementation. Implemented the redesigned user dashboard with better UX
-                        and performance using JavaScript. Created multiple landing pages using popular frontend
-                        frameworks like Angular, library like ReactJS and Backend using Node.js. Facilitate team
-                        performance on current tasks.</p>
-                    <ul>
-                        <li>Angular Js: Joined as a Front End developer, worked on AngularJS framework and helped So
-                            Delhi to improve its overall web performance.</li>
-                        <li>Single Handedly added various features like Login, Write a story Editor to the website.
-                        </li>
-                        <li>PWA (Progressive Web App): Worked upon SO Delhi's PWA.</li>
-                        <li>REACT: Build a Full Fledged website using React Framework.</li>
-                        <li>NODE JS: Build Secured API's using JWT.</li>
-                        <li>ELASTIC SEARCH: Integrated Elastic Search for precise and fast search results.</li>
-                        <li>DevOps: Having experience working with AWS, Digital Ocean and Airtel Cloud..</li>
+            <div class="about-grid">
+                <div>
+                    <p class="eyebrow">About</p>
+                    <h2>I take products from requirements to production.</h2>
+                    <p>
+                        I have built and shipped web apps end to end: gathering requirements, designing
+                        flows, implementing features, and refactoring for performance. That includes
+                        redesigned dashboards with better UX, landing experiences in Angular and React,
+                        and Node.js backends with JWT-secured APIs.
+                    </p>
+                    <p>
+                        Recent work spans city-scale content platforms, co-working product sites,
+                        blockchain asset tracking used by Walmart Canada, and developer tools such as
+                        a Chrome extension for markdown preview.
+                    </p>
+                    <ul class="skill-list">
+                        <li>Angular / AngularJS</li>
+                        <li>React</li>
+                        <li>Node.js &amp; JWT APIs</li>
+                        <li>Elasticsearch</li>
+                        <li>PWA</li>
+                        <li>AWS, DigitalOcean, Airtel Cloud</li>
                     </ul>
-                    <button id="download-pdf">Download PDF</button>
+                    <a class="btn btn-primary" href="./Apoorv_Tomar_resume-9899948270.pdf" target="_blank"
+                        rel="noopener">Download resume</a>
                 </div>
-                <div class="image">
-                    <img src="./proPic.png" alt="Apoorv Tomar">
-                </div>
-            </div>
-        </section>
-        <section class="projects">
-            <div class="project">
-                <img src="./assets/project2.jpg" alt="Project 1">
-                <h2>So Share</h2>
-                <p>So Share is a collaborative co-working space for those in the creative, content & digital space.</p>
-                <a href="https://www.soshare.in/" target="_blank">View Website</a>
-            </div>
-
-            <div class="project">
-                <img src="./assets/project1.jpg" alt="Project 2">
-                <h2>So City</h2>
-                <p>SO DELHI, it is top guide to New Delhi curated by local experts covering Food, Event, LifeStyle etc.
-                </p>
-                <a href="https://so.city/" target="_blank">View Website</a>
-            </div>
-
-            <div class="project">
-                <img src="./assets/project3.png" alt="Project 3">
-                <h2>JSON differentiator</h2>
-                <p>This is a project in which you can compare two JSON files.</p>
-                <a href="https://json-differentiator.web.app/" target="_blank">View Website</a>
-            </div>
-
-            <div class="project">
-                <img src="./assets/project.jpg" alt="Project 3">
-                <h2>DL Asset Track</h2>
-                <p>Built DL Assert track Solution with DLT Labs, which is been used by Walmart Canada.</p>
-                <a href="https://www.dltlabs.com/platforms/asset-track" target="_blank">View Website</a>
-            </div>
-
-            <div class="project">
-                <img src="./assets/devto-markdown-preview.png" alt="Project 3">
-                <h2>Dev.to Markdown Preview</h2>
-                <p>Using the extension you don't have to navigate to different page, with just click of a button you
-                    will be able to see the preview of your article content written as markdown.
-                    .</p>
-                <a href="https://chromewebstore.google.com/detail/devto-markdown-preview/khgmccddeeboaoaipppblccijkcjhglo"
-                    target="_blank">View Website</a>
+                <figure class="portrait">
+                    <img src="./proPic.png" alt="Portrait of Apoorv Tomar">
+                </figure>
             </div>
         </section>
 
-        <br><br>
+        <section id="work">
+            <p class="eyebrow">Selected work</p>
+            <h2>Products I have helped ship</h2>
+            <div class="projects">
+                <article class="project">
+                    <img src="./assets/project1.jpg" alt="SO Delhi website">
+                    <div class="project-body">
+                        <h3>SO Delhi</h3>
+                        <p>City guide for New Delhi covering food, events, and lifestyle — including login, a story editor, PWA, and Elasticsearch.</p>
+                        <a href="https://so.city/" target="_blank" rel="noopener">Visit so.city</a>
+                    </div>
+                </article>
+                <article class="project">
+                    <img src="./assets/project2.jpg" alt="So Share website">
+                    <div class="project-body">
+                        <h3>So Share</h3>
+                        <p>Collaborative co-working space for people in creative, content, and digital work.</p>
+                        <a href="https://www.soshare.in/" target="_blank" rel="noopener">Visit soshare.in</a>
+                    </div>
+                </article>
+                <article class="project">
+                    <img src="./assets/project.jpg" alt="DL Asset Track platform">
+                    <div class="project-body">
+                        <h3>DL Asset Track</h3>
+                        <p>Asset-track solution built with DLT Labs, used by Walmart Canada.</p>
+                        <a href="https://www.dltlabs.com/platforms/asset-track" target="_blank"
+                            rel="noopener">View platform</a>
+                    </div>
+                </article>
+                <article class="project">
+                    <img src="./assets/project3.png" alt="JSON differentiator app">
+                    <div class="project-body">
+                        <h3>JSON Differentiator</h3>
+                        <p>A tool to compare two JSON files and highlight differences.</p>
+                        <a href="https://json-differentiator.web.app/" target="_blank" rel="noopener">Open app</a>
+                    </div>
+                </article>
+                <article class="project">
+                    <img src="./assets/devto-markdown-preview.png" alt="Dev.to Markdown Preview extension">
+                    <div class="project-body">
+                        <h3>Dev.to Markdown Preview</h3>
+                        <p>Chrome extension that previews markdown articles on Dev.to without leaving the editor.</p>
+                        <a href="https://chromewebstore.google.com/detail/devto-markdown-preview/khgmccddeeboaoaipppblccijkcjhglo"
+                            target="_blank" rel="noopener">Chrome Web Store</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact">
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s build something solid.</h2>
+            <p class="lede compact">Open to product engineering conversations, collaborations, and interesting problems.</p>
+            <div class="contact-links">
+                <a href="mailto:apoorv_tomar2222@yahoo.com">apoorv_tomar2222@yahoo.com</a>
+                <a href="https://www.linkedin.com/in/apoorvtomar/" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="https://github.com/apoorvtomar2222" target="_blank" rel="noopener">GitHub</a>
+                <a href="https://mindroast.medium.com/" target="_blank" rel="noopener">Medium</a>
+                <a href="https://t.me/ApoorvTomar" target="_blank" rel="noopener">Telegram</a>
+            </div>
+        </section>
     </main>
-    <br><br>
-
 
     <footer>
-        <p>&copy; 2024 Apoorv Tomar. All rights reserved.</p>
+        <p>© 2026 Apoorv Tomar</p>
     </footer>
+
+    <script>
+        const toggle = document.querySelector('.nav-toggle');
+        const nav = document.getElementById('site-nav');
+
+        toggle.addEventListener('click', () => {
+            const open = toggle.getAttribute('aria-expanded') === 'true';
+            toggle.setAttribute('aria-expanded', String(!open));
+            nav.classList.toggle('open', !open);
+        });
+
+        nav.querySelectorAll('a').forEach((link) => {
+            link.addEventListener('click', () => {
+                toggle.setAttribute('aria-expanded', 'false');
+                nav.classList.remove('open');
+            });
+        });
+    </script>
 </body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
-<script>
-    document.getElementById('download-pdf').addEventListener('click', function (event) {
-        event.preventDefault();
-        const pdfUrl = './Apoorv_Tomar_resume-9899948270.pdf';
-        window.open(pdfUrl, '_blank');
-    });
-</script>
 
 </html>
